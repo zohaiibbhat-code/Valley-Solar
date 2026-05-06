@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valley Solars — Powering Kashmir's Future | Solar Installation Kashmir</title>
+<meta name="description" content="Valley Solars — Kashmir's trusted solar company. ₹94,800 govt subsidy under PM Surya Ghar. Serving all of Kashmir Valley. 90+ installations. KPDCL certified. MD Complex Karan Nagar Srinagar.">
+<meta name="keywords" content="solar panel Kashmir, solar installation Srinagar, PM Surya Ghar Kashmir, solar subsidy JK, Valley Solars Karan Nagar, rooftop solar Kashmir Valley">
+<meta property="og:title" content="Valley Solars — Powering Kashmir's Future">
+<meta property="og:description" content="Get ₹94,800 government subsidy. Kashmir's fastest-growing solar company. 90+ installations. Free site visit across Kashmir Valley.">
+<meta property="og:image" content="logo.png">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --chinar-green: #2C3E2D;
+  --deep-forest: #1A2B1C;
+  --saffron: #C17F3A;
+  --walnut-gold: #D4A054;
+  --dal-teal: #7B9E8C;
+  --papier: #F5F0E8;
+  --papier-dark: #EDE6D8;
+  --text-dark: #1A2B1C;
+  --text-mid: #4A5C4B;
+  --text-light: #7B9E8C;
+  --white: #FFFFFF;
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:var(--font-body); background:var(--papier); color:var(--text-dark); overflow-x:hidden; }
+
+/* PAGE LOADER */
+#page-loader {
+  position:fixed; inset:0; background:var(--deep-forest); z-index:9999;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px;
+  transition:opacity 0.7s ease, visibility 0.7s ease;
+}
+#page-loader.hidden { opacity:0; visibility:hidden; pointer-events:none; }
+.loader-logo { width:90px; height:90px; object-fit:contain; border-radius:50%; animation:loaderPulse 1.5s ease-in-out infinite; }
+@keyframes loaderPulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.06)} }
+.loader-text { font-family:var(--font-display); font-size:22px; font-weight:700; color:var(--white); }
+.loader-sub { font-size:11px; color:var(--walnut-gold); letter-spacing:0.14em; text-transform:uppercase; }
+.loader-bar-wrap { width:140px; height:2px; background:rgba(255,255,255,0.1); border-radius:2px; overflow:hidden; }
+.loader-bar { height:100%; background:var(--saffron); border-radius:2px; animation:loaderBar 1.4s ease-in-out forwards; }
+@keyframes loaderBar { from{width:0%} to{width:100%} }
+
+/* ANNOUNCEMENT */
+.announcement {
+  background:var(--saffron); padding:10px 5%; text-align:center;
+  font-size:13px; font-weight:500; color:white;
+  display:flex; align-items:center; justify-content:center; gap:12px; flex-wrap:wrap;
+  position:relative; z-index:998;
+}
+.announcement a { color:white; font-weight:700; text-decoration:underline; text-underline-offset:2px; }
+
+/* NAVBAR */
+nav {
+  position:fixed; top:0; left:0; right:0; z-index:1000;
+  padding:0 5%; height:72px;
+  display:flex; align-items:center; justify-content:space-between;
+  transition:all 0.4s ease;
+}
+nav.scrolled { background:rgba(26,43,28,0.97); backdrop-filter:blur(12px); box-shadow:0 2px 30px rgba(0,0,0,0.3); }
+.nav-logo { display:flex; align-items:center; gap:10px; text-decoration:none; }
+.nav-logo-icon { width:42px; height:42px; border-radius:50%; overflow:hidden; background:white; padding:2px; box-shadow:0 2px 8px rgba(0,0,0,0.2); flex-shrink:0; }
+.nav-logo-icon img { width:100%; height:100%; object-fit:contain; border-radius:50%; }
+.nav-logo-name { font-family:var(--font-display); font-size:17px; font-weight:700; color:var(--white); display:block; line-height:1; }
+.nav-logo-tag { font-size:9px; color:var(--walnut-gold); letter-spacing:0.1em; text-transform:uppercase; display:block; margin-top:3px; }
+.nav-links { display:flex; align-items:center; gap:24px; list-style:none; }
+.nav-links a { color:rgba(255,255,255,0.8); text-decoration:none; font-size:14px; transition:color 0.2s; white-space:nowrap; }
+.nav-links a:hover, .nav-links a.active { color:var(--walnut-gold); }
+.nav-cta { background:var(--saffron) !important; color:var(--white) !important; padding:9px 18px; border-radius:8px; font-weight:500 !important; }
+.nav-cta:hover { background:var(--walnut-gold) !important; }
+.hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; padding:6px; background:none; border:none; }
+.hamburger span { display:block; width:24px; height:2px; background:white; border-radius:2px; transition:all 0.3s; }
+.hamburger.open span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity:0; }
+.hamburger.open span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
+.mobile-menu {
+  display:none; position:fixed; top:72px; left:0; right:0;
+  background:rgba(26,43,28,0.98); backdrop-filter:blur(16px);
+  z-index:999; padding:20px 6%; flex-direction:column;
+  border-top:1px solid rgba(255,255,255,0.08);
+}
+.mobile-menu.open { display:flex; }
+.mobile-menu a { color:rgba(255,255,255,0.8); text-decoration:none; font-size:15px; padding:13px 0; border-bottom:1px solid rgba(255,255,255,0.07); transition:color 0.2s; }
+.mobile-menu a:hover { color:var(--walnut-gold); }
+.mobile-menu .m-cta { margin-top:14px; background:var(--saffron); color:white !important; text-align:center; padding:14px !important; border-radius:10px; font-weight:500 !important; border:none !important; }
+
+/* BUTTONS */
+.btn-primary {
+  display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  background:var(--saffron); color:var(--white);
+  padding:14px 28px; border-radius:10px;
+  font-size:15px; font-weight:500; font-family:var(--font-body);
+  text-decoration:none; border:none; cursor:pointer;
+  transition:all 0.25s; white-space:nowrap;
+}
+.btn-primary:hover { background:var(--walnut-gold); transform:translateY(-2px); box-shadow:0 8px 24px rgba(193,127,58,0.4); }
+.btn-outline {
+  display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  background:transparent; color:var(--white);
+  padding:14px 28px; border-radius:10px;
+  font-size:15px; font-weight:400; font-family:var(--font-body);
+  text-decoration:none; border:2px solid rgba(255,255,255,0.4);
+  cursor:pointer; transition:all 0.25s; white-space:nowrap;
+}
+.btn-outline:hover { border-color:var(--walnut-gold); color:var(--walnut-gold); }
+.btn-outline-dark {
+  display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  background:transparent; color:var(--text-dark);
+  padding:13px 24px; border-radius:10px;
+  font-size:14px; font-weight:400; font-family:var(--font-body);
+  text-decoration:none; border:1.5px solid #d0cdc5;
+  cursor:pointer; transition:all 0.25s; white-space:nowrap;
+}
+.btn-outline-dark:hover { border-color:var(--saffron); color:var(--saffron); }
+
+/* HERO */
+.hero { position:relative; height:100vh; min-height:700px; display:flex; align-items:center; overflow:hidden; }
+.hero-bg {
+  position:absolute; inset:0;
+  background-image:url('https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?w=1800&q=85');
+  background-size:cover; background-position:center 35%;
+  animation:heroZoom 20s ease-in-out infinite alternate;
+}
+@keyframes heroZoom { from{transform:scale(1.03)} to{transform:scale(1.09)} }
+.hero-overlay {
+  position:absolute; inset:0;
+  background:linear-gradient(135deg, rgba(26,43,28,0.92) 0%, rgba(26,43,28,0.68) 55%, rgba(193,127,58,0.22) 100%);
+}
+.hero-pattern {
+  position:absolute; inset:0; opacity:0.03;
+  background-image:url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 5C38 22 12 28 18 50C24 70 42 64 50 92C58 64 76 70 82 50C88 28 62 22 50 5Z' fill='%23ffffff'/%3E%3C/svg%3E");
+  background-size:100px 100px;
+}
+/* Logo faded as large circle into background — right side */
+.hero-logo-bg {
+  position:absolute; right:7%; top:50%; transform:translateY(-50%);
+  width:320px; height:320px; border-radius:50%; overflow:hidden; opacity:0.07;
+  background-image:url('logo.png');
+  background-size:contain; background-repeat:no-repeat; background-position:center;
+  filter:blur(2px);
+}
+.hero-content { position:relative; z-index:2; padding:0 6%; max-width:760px; animation:heroIn 1.2s ease-out; }
+@keyframes heroIn { from{opacity:0;transform:translateY(28px)} to{opacity:1;transform:translateY(0)} }
+/* Circle logo mark in hero — small, natural */
+.hero-logo-mark {
+  width:68px; height:68px; border-radius:50%; overflow:hidden;
+  background:white; padding:4px; margin-bottom:20px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.3);
+}
+.hero-logo-mark img { width:100%; height:100%; object-fit:contain; border-radius:50%; display:block; }
+.hero-badge {
+  display:inline-flex; align-items:center; gap:8px;
+  background:rgba(193,127,58,0.18); border:1px solid rgba(193,127,58,0.4);
+  border-radius:30px; padding:6px 16px; margin-bottom:22px;
+}
+.hero-badge-dot { width:6px; height:6px; border-radius:50%; background:var(--walnut-gold); animation:pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(0.8)} }
+.hero-badge span { font-size:12px; color:var(--walnut-gold); font-weight:500; letter-spacing:0.04em; }
+.hero-title { font-family:var(--font-display); font-size:clamp(36px,5vw,68px); font-weight:700; color:var(--white); line-height:1.1; margin-bottom:12px; }
+.hero-title em { font-style:italic; color:var(--walnut-gold); }
+.hero-sub { font-family:var(--font-display); font-size:clamp(14px,1.8vw,20px); font-weight:400; font-style:italic; color:rgba(255,255,255,0.65); margin-bottom:20px; }
+.hero-desc { font-size:15px; color:rgba(255,255,255,0.75); line-height:1.75; max-width:520px; margin-bottom:36px; }
+/* Hero CTA buttons — clear spacing, never hidden */
+.hero-ctas { display:flex; flex-wrap:wrap; gap:16px; align-items:center; }
+.hero-stats {
+  position:absolute; bottom:0; left:0; right:0; z-index:2;
+  display:grid; grid-template-columns:repeat(4,1fr);
+  background:rgba(26,43,28,0.93); backdrop-filter:blur(12px);
+  border-top:1px solid rgba(193,127,58,0.2);
+}
+.hero-stat { padding:20px 22px; border-right:1px solid rgba(255,255,255,0.07); text-align:center; }
+.hero-stat:last-child { border-right:none; }
+.hero-stat-val { font-family:var(--font-display); font-size:26px; font-weight:700; color:var(--walnut-gold); display:block; line-height:1; margin-bottom:4px; }
+.hero-stat-label { font-size:11px; color:rgba(255,255,255,0.5); }
+
+/* TRUST BAR */
+.trust-bar { background:var(--papier-dark); border-bottom:1px solid rgba(0,0,0,0.07); padding:16px 5%; display:flex; align-items:center; justify-content:center; gap:28px; flex-wrap:wrap; }
+.trust-item { display:flex; align-items:center; gap:8px; }
+.trust-item-text { font-size:13px; font-weight:600; color:var(--text-dark); }
+.trust-div { width:1px; height:24px; background:rgba(0,0,0,0.1); }
+
+/* SECTIONS */
+section { padding:88px 6%; }
+.section-eyebrow { display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+.eyebrow-line { width:32px; height:2px; background:var(--saffron); border-radius:2px; }
+.eyebrow-text { font-size:11px; font-weight:600; color:var(--saffron); letter-spacing:0.12em; text-transform:uppercase; }
+.section-title { font-family:var(--font-display); font-size:clamp(26px,3.5vw,44px); font-weight:700; color:var(--text-dark); line-height:1.15; margin-bottom:16px; }
+.section-title em { font-style:italic; color:var(--saffron); }
+.section-desc { font-size:15px; color:var(--text-mid); line-height:1.75; max-width:580px; }
+
+/* FADE UP */
+.fade-up { opacity:0; transform:translateY(26px); transition:opacity 0.7s ease, transform 0.7s ease; }
+.fade-up.visible { opacity:1; transform:translateY(0); }
+.fd1{transition-delay:0.1s} .fd2{transition-delay:0.2s} .fd3{transition-delay:0.3s} .fd4{transition-delay:0.4s}
+
+/* WHY SECTION */
+.why-section { background:var(--white); }
+.why-grid { display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center; margin-top:52px; }
+.why-image-wrap { position:relative; }
+.why-image-main { width:100%; height:460px; object-fit:cover; border-radius:20px; display:block; }
+.why-image-badge { position:absolute; bottom:-18px; right:-18px; background:var(--chinar-green); border-radius:14px; padding:16px 20px; text-align:center; box-shadow:0 8px 28px rgba(26,43,28,0.3); }
+.why-image-badge-val { font-family:var(--font-display); font-size:30px; font-weight:700; color:var(--walnut-gold); display:block; line-height:1; }
+.why-image-badge-label { font-size:11px; color:rgba(255,255,255,0.65); margin-top:4px; }
+.why-accent-card { position:absolute; top:22px; left:-22px; background:var(--saffron); border-radius:12px; padding:13px 17px; box-shadow:0 8px 22px rgba(193,127,58,0.4); }
+.why-accent-card-val { font-family:var(--font-display); font-size:20px; font-weight:700; color:var(--white); display:block; }
+.why-accent-card-label { font-size:11px; color:rgba(255,255,255,0.8); margin-top:2px; }
+.why-features { display:flex; flex-direction:column; gap:24px; margin-top:32px; }
+.why-feature { display:flex; gap:16px; align-items:flex-start; }
+.why-feature-icon { width:44px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:20px; }
+.why-feature-title { font-size:15px; font-weight:600; color:var(--text-dark); margin-bottom:4px; }
+.why-feature-desc { font-size:13px; color:var(--text-mid); line-height:1.6; }
+
+/* SERVICES */
+.services-section { background:var(--papier); }
+.services-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:52px; }
+.service-card { background:var(--white); border-radius:18px; overflow:hidden; transition:transform 0.3s, box-shadow 0.3s; }
+.service-card:hover { transform:translateY(-6px); box-shadow:0 20px 48px rgba(26,43,28,0.12); }
+.service-card-img { width:100%; height:200px; object-fit:cover; display:block; }
+.service-card-body { padding:22px; }
+.service-card-icon { width:40px; height:40px; border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:12px; font-size:18px; }
+.service-card-title { font-family:var(--font-display); font-size:19px; font-weight:600; color:var(--text-dark); margin-bottom:8px; }
+.service-card-desc { font-size:13px; color:var(--text-mid); line-height:1.65; margin-bottom:14px; }
+.service-card-link { font-size:13px; font-weight:600; color:var(--saffron); text-decoration:none; display:inline-flex; align-items:center; gap:5px; transition:gap 0.2s; }
+.service-card-link:hover { gap:9px; }
+
+/* SUBSIDY */
+.subsidy-section { background:var(--deep-forest); position:relative; overflow:hidden; }
+.subsidy-bg-pat { position:absolute; inset:0; opacity:0.04; background-image:url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M35 4C26 18 9 22 13 35C17 48 30 44 35 64C40 44 53 48 57 35C61 22 44 18 35 4Z' fill='%23ffffff'/%3E%3C/svg%3E"); background-size:70px 70px; }
+.subsidy-section .section-title { color:var(--white); }
+.subsidy-section .section-desc { color:rgba(255,255,255,0.6); }
+.subsidy-section .eyebrow-text { color:var(--walnut-gold); }
+.subsidy-section .eyebrow-line { background:var(--walnut-gold); }
+.subsidy-cards { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:44px; }
+.subsidy-card { background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12); border-radius:18px; padding:30px 24px; text-align:center; transition:all 0.3s; position:relative; }
+.subsidy-card.featured { background:var(--saffron); border-color:var(--saffron); }
+.subsidy-card:hover:not(.featured) { background:rgba(255,255,255,0.11); border-color:rgba(193,127,58,0.4); }
+.featured-badge { position:absolute; top:-11px; left:50%; transform:translateX(-50%); background:var(--walnut-gold); color:var(--deep-forest); font-size:10px; font-weight:700; padding:4px 14px; border-radius:20px; letter-spacing:0.06em; text-transform:uppercase; white-space:nowrap; }
+.sc-kw { font-size:12px; font-weight:600; letter-spacing:0.07em; color:var(--walnut-gold); text-transform:uppercase; margin-bottom:10px; }
+.subsidy-card.featured .sc-kw { color:rgba(255,255,255,0.85); }
+.sc-price { font-family:var(--font-display); font-size:30px; font-weight:700; color:var(--white); margin-bottom:4px; line-height:1; }
+.sc-label { font-size:12px; color:rgba(255,255,255,0.5); margin-bottom:18px; }
+.subsidy-card.featured .sc-label { color:rgba(255,255,255,0.75); }
+.sc-breakdown { background:rgba(255,255,255,0.1); border-radius:10px; padding:14px; }
+.subsidy-card.featured .sc-breakdown { background:rgba(255,255,255,0.2); }
+.sc-row { display:flex; justify-content:space-between; font-size:12px; padding:3px 0; }
+.sc-row-l { color:rgba(255,255,255,0.55); }
+.sc-row-v { color:#7ecf7e; font-weight:500; }
+.subsidy-card.featured .sc-row-l { color:rgba(255,255,255,0.78); }
+.subsidy-card.featured .sc-row-v { color:#fff; }
+.sc-div { height:1px; background:rgba(255,255,255,0.15); margin:8px 0; }
+.sc-net-row { display:flex; justify-content:space-between; align-items:center; margin-top:2px; }
+.sc-net-l { color:rgba(255,255,255,0.7); font-size:11px; font-weight:600; }
+.sc-net-v { font-family:var(--font-display); font-size:18px; font-weight:700; color:var(--walnut-gold); }
+.subsidy-card.featured .sc-net-v { color:var(--white); }
+.subsidy-note { margin-top:26px; background:rgba(255,255,255,0.06); border-radius:12px; padding:16px 20px; font-size:13px; color:rgba(255,255,255,0.6); line-height:1.65; text-align:center; position:relative; z-index:1; }
+.subsidy-note strong { color:var(--walnut-gold); }
+
+/* CALCULATOR */
+.calc-section { background:var(--papier-dark); }
+.calc-wrapper { margin-top:44px; background:var(--white); border-radius:22px; overflow:hidden; box-shadow:0 20px 60px rgba(26,43,28,0.1); max-width:780px; margin-left:auto; margin-right:auto; }
+.calc-header-bar { background:var(--chinar-green); padding:22px 28px; }
+.calc-header-bar h3 { font-family:var(--font-display); font-size:20px; font-weight:600; color:var(--white); margin-bottom:3px; }
+.calc-header-bar p { font-size:12px; color:rgba(255,255,255,0.55); }
+.calc-body { padding:28px; }
+.calc-lbl { font-size:11px; font-weight:600; color:var(--text-mid); letter-spacing:0.07em; text-transform:uppercase; margin-bottom:10px; }
+.sys-btns { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:24px; }
+.sys-btn { border:1.5px solid #e0ddd5; border-radius:10px; padding:10px 16px; cursor:pointer; background:var(--papier); transition:all 0.2s; text-align:center; }
+.sys-btn:hover { border-color:var(--saffron); }
+.sys-btn.active { border-color:var(--chinar-green); background:var(--chinar-green); }
+.sys-btn .kw { font-size:15px; font-weight:700; color:var(--text-dark); }
+.sys-btn.active .kw { color:var(--white); }
+.sys-btn .ks { font-size:10px; color:var(--text-light); margin-top:2px; }
+.sys-btn.active .ks { color:rgba(255,255,255,0.6); }
+.sys-btn .ki { font-size:9px; color:var(--saffron); font-weight:500; margin-top:2px; }
+.sys-btn.active .ki { color:var(--walnut-gold); }
+.bill-slider-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+.bill-display { font-family:var(--font-display); font-size:22px; font-weight:700; color:var(--chinar-green); }
+input[type=range].styled { width:100%; accent-color:var(--chinar-green); height:4px; }
+.slider-hints { display:flex; justify-content:space-between; font-size:11px; color:var(--text-light); margin-top:5px; margin-bottom:24px; }
+.calc-results { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:18px; }
+.cr { background:var(--papier); border-radius:12px; padding:14px 16px; }
+.cr.green { background:var(--chinar-green); }
+.cr.gold { background:var(--saffron); }
+.cr-label { font-size:11px; color:var(--text-light); margin-bottom:4px; }
+.cr.green .cr-label, .cr.gold .cr-label { color:rgba(255,255,255,0.6); }
+.cr-val { font-family:var(--font-display); font-size:21px; font-weight:700; color:var(--text-dark); }
+.cr.green .cr-val, .cr.gold .cr-val { color:var(--white); }
+.cr-sub { font-size:11px; color:var(--text-light); margin-top:2px; }
+.cr.green .cr-sub, .cr.gold .cr-sub { color:rgba(255,255,255,0.55); }
+.calc-bk { background:var(--papier); border-radius:12px; padding:16px; margin-bottom:18px; }
+.bk-row { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid rgba(0,0,0,0.06); font-size:13px; }
+.bk-row:last-child { border-bottom:none; }
+.bk-row span:first-child { color:var(--text-mid); }
+.bk-row span:last-child { font-weight:500; }
+.bk-row .pos { color:#2e7d32; }
+.bk-row .bold { font-weight:700; font-size:14px; }
+.bk-row .gold { color:var(--saffron); }
+.calc-lifetime { background:linear-gradient(135deg,var(--chinar-green),var(--deep-forest)); border-radius:14px; padding:18px 20px; display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
+.lt-label { font-size:11px; color:rgba(255,255,255,0.5); margin-bottom:3px; }
+.lt-val { font-family:var(--font-display); font-size:26px; font-weight:700; color:var(--walnut-gold); }
+.lt-r-label { font-size:11px; color:rgba(255,255,255,0.5); margin-bottom:3px; text-align:right; }
+.lt-r-val { font-family:var(--font-display); font-size:17px; font-weight:600; color:var(--dal-teal); text-align:right; }
+/* Calculator CTA buttons — spacious, full width each */
+.calc-cta-wrap { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:4px; }
+.calc-disclaimer { font-size:11px; color:var(--text-light); line-height:1.6; margin-top:14px; text-align:center; }
+
+/* ===== OUR WORK GALLERY — placeholder system for future photos/videos ===== */
+.gallery-section { background:var(--white); }
+.gallery-guide-box {
+  background:var(--papier); border:2px dashed rgba(193,127,58,0.4); border-radius:14px;
+  padding:20px 24px; margin-bottom:36px; margin-top:12px;
+}
+.gallery-guide-title { font-size:13px; font-weight:600; color:var(--saffron); margin-bottom:8px; display:flex; align-items:center; gap:8px; }
+.gallery-guide-steps { font-size:12px; color:var(--text-mid); line-height:2; }
+.gallery-guide-steps code { background:var(--papier-dark); padding:1px 6px; border-radius:4px; font-family:monospace; font-size:12px; color:var(--chinar-green); }
+
+/* Gallery grid — add items here */
+.gallery-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:0; }
+.gallery-item {
+  border-radius:14px; overflow:hidden; position:relative;
+  background:var(--papier-dark); border:1px solid rgba(0,0,0,0.06);
+  transition:transform 0.3s, box-shadow 0.3s;
+}
+.gallery-item:hover { transform:translateY(-4px); box-shadow:0 16px 40px rgba(26,43,28,0.12); }
+.gallery-item.placeholder {
+  min-height:240px; display:flex; flex-direction:column;
+  align-items:center; justify-content:center; text-align:center; padding:32px 20px;
+  border:2px dashed rgba(0,0,0,0.12); background:var(--papier);
+}
+/* Real image item */
+.gallery-img { width:100%; height:240px; object-fit:cover; display:block; }
+/* Video item */
+.gallery-video { width:100%; height:240px; object-fit:cover; display:block; }
+.gallery-item-footer {
+  padding:12px 14px; background:var(--white);
+  border-top:1px solid rgba(0,0,0,0.06);
+}
+.gallery-item-location { font-size:12px; font-weight:600; color:var(--chinar-green); display:flex; align-items:center; gap:5px; }
+.gallery-item-caption { font-size:11px; color:var(--text-light); margin-top:2px; }
+/* Placeholder content */
+.placeholder-icon { font-size:36px; margin-bottom:12px; opacity:0.4; }
+.placeholder-text { font-size:13px; font-weight:500; color:var(--text-mid); margin-bottom:4px; }
+.placeholder-sub { font-size:11px; color:var(--text-light); }
+.placeholder-num { font-family:var(--font-display); font-size:18px; font-weight:700; color:var(--saffron); margin-bottom:6px; }
+
+/* CULTURE */
+.culture-section { background:var(--chinar-green); padding:88px 6%; position:relative; overflow:hidden; }
+.culture-bg { position:absolute; inset:0; background-image:url('https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=1600&q=70'); background-size:cover; background-position:center; opacity:0.12; }
+.culture-section .section-title { color:var(--white); }
+.culture-section .eyebrow-text { color:var(--walnut-gold); }
+.culture-section .eyebrow-line { background:var(--walnut-gold); }
+.culture-quote { position:relative; z-index:2; max-width:680px; }
+.culture-quote-text { font-family:var(--font-display); font-size:clamp(20px,2.8vw,34px); font-weight:400; font-style:italic; color:var(--white); line-height:1.5; margin:22px 0 14px; }
+.culture-quote-attr { font-size:12px; color:var(--walnut-gold); letter-spacing:0.06em; }
+.culture-images { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:52px; position:relative; z-index:2; }
+.culture-img-wrap { border-radius:14px; overflow:hidden; position:relative; }
+.culture-img-wrap:first-child { grid-row:span 2; }
+.culture-img { width:100%; height:200px; object-fit:cover; display:block; transition:transform 0.5s; }
+.culture-img-wrap:first-child .culture-img { height:100%; min-height:416px; }
+.culture-img-wrap:hover .culture-img { transform:scale(1.04); }
+.culture-img-overlay { position:absolute; bottom:0; left:0; right:0; background:linear-gradient(transparent,rgba(26,43,28,0.8)); padding:20px 14px 12px; }
+.culture-img-caption { font-size:12px; color:rgba(255,255,255,0.85); font-style:italic; }
+
+/* PROCESS */
+.process-section { background:var(--white); }
+.process-steps { display:grid; grid-template-columns:repeat(5,1fr); gap:0; margin-top:52px; position:relative; }
+.process-steps::before { content:''; position:absolute; top:30px; left:10%; right:10%; height:2px; background:linear-gradient(90deg,var(--saffron),var(--dal-teal)); z-index:0; }
+.process-step { text-align:center; position:relative; z-index:1; padding:0 12px; }
+.process-step-num { width:60px; height:60px; border-radius:50%; background:var(--chinar-green); color:var(--white); font-family:var(--font-display); font-size:20px; font-weight:700; display:flex; align-items:center; justify-content:center; margin:0 auto 16px; border:3px solid var(--papier); box-shadow:0 4px 16px rgba(26,43,28,0.2); }
+.process-step:nth-child(2) .process-step-num { background:var(--dal-teal); }
+.process-step:nth-child(3) .process-step-num { background:var(--saffron); }
+.process-step:nth-child(4) .process-step-num { background:var(--walnut-gold); }
+.process-step-title { font-size:13px; font-weight:600; color:var(--text-dark); margin-bottom:6px; }
+.process-step-desc { font-size:12px; color:var(--text-mid); line-height:1.55; }
+
+/* TESTIMONIALS */
+.testimonials-section { background:var(--papier); }
+.testimonials-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:44px; }
+.testimonial-card { background:var(--white); border-radius:16px; padding:26px; position:relative; transition:transform 0.3s, box-shadow 0.3s; }
+.testimonial-card:hover { transform:translateY(-4px); box-shadow:0 16px 38px rgba(26,43,28,0.1); }
+.tq-mark { font-family:var(--font-display); font-size:68px; font-weight:700; color:var(--papier-dark); line-height:0.8; position:absolute; top:18px; right:22px; }
+.t-stars { display:flex; gap:3px; margin-bottom:12px; }
+.star { color:var(--walnut-gold); font-size:13px; }
+.t-text { font-size:13px; color:var(--text-mid); line-height:1.7; margin-bottom:18px; }
+.t-author { display:flex; align-items:center; gap:12px; }
+.t-avatar { width:42px; height:42px; border-radius:50%; background:var(--chinar-green); display:flex; align-items:center; justify-content:center; font-family:var(--font-display); font-size:15px; font-weight:700; color:var(--walnut-gold); flex-shrink:0; }
+.t-name { font-size:14px; font-weight:600; color:var(--text-dark); }
+.t-loc { font-size:12px; color:var(--text-light); margin-top:2px; }
+.t-tag { background:var(--papier); border-radius:6px; padding:3px 8px; font-size:10px; color:var(--saffron); font-weight:500; margin-top:5px; display:inline-block; }
+
+/* CONTACT */
+.contact-section { background:var(--deep-forest); padding:88px 6%; position:relative; overflow:hidden; }
+.contact-bg { position:absolute; inset:0; background-image:url('https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?w=1400&q=60'); background-size:cover; background-position:center top; opacity:0.1; }
+.contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:60px; position:relative; z-index:2; align-items:start; }
+.contact-section .section-title { color:var(--white); }
+.contact-section .section-desc { color:rgba(255,255,255,0.6); }
+.contact-section .eyebrow-text { color:var(--walnut-gold); }
+.contact-section .eyebrow-line { background:var(--walnut-gold); }
+.contact-items { display:flex; flex-direction:column; gap:18px; margin-top:28px; }
+.contact-item { display:flex; align-items:flex-start; gap:14px; }
+.ci-icon { width:42px; height:42px; border-radius:11px; display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:18px; background:rgba(193,127,58,0.15); }
+.ci-label { font-size:10px; font-weight:600; color:var(--walnut-gold); letter-spacing:0.07em; text-transform:uppercase; margin-bottom:3px; }
+.ci-val { font-size:14px; color:var(--white); font-weight:500; line-height:1.55; }
+.contact-form-card { background:var(--white); border-radius:20px; padding:30px; }
+.form-title { font-family:var(--font-display); font-size:20px; font-weight:700; color:var(--text-dark); margin-bottom:20px; }
+.form-group { margin-bottom:13px; }
+.form-label { font-size:11px; font-weight:600; color:var(--text-mid); letter-spacing:0.04em; text-transform:uppercase; display:block; margin-bottom:5px; }
+.form-input { width:100%; padding:11px 13px; border:1.5px solid #e0ddd5; border-radius:9px; font-size:13px; font-family:var(--font-body); color:var(--text-dark); background:var(--papier); transition:border-color 0.2s; outline:none; }
+.form-input:focus { border-color:var(--chinar-green); }
+.form-select { width:100%; padding:11px 13px; border:1.5px solid #e0ddd5; border-radius:9px; font-size:13px; font-family:var(--font-body); color:var(--text-dark); background:var(--papier); outline:none; cursor:pointer; appearance:none; transition:border-color 0.2s; }
+.form-select:focus { border-color:var(--chinar-green); }
+.form-submit-row { margin-top:16px; }
+.form-success { display:none; background:#e8f5e9; border-radius:12px; padding:20px; text-align:center; margin-top:8px; }
+.form-success-icon { font-size:30px; margin-bottom:8px; }
+.form-success-title { font-size:14px; font-weight:600; color:#2e7d32; margin-bottom:4px; }
+.form-success-sub { font-size:12px; color:#4a7a4b; line-height:1.55; }
+
+/* FOOTER */
+footer { background:var(--deep-forest); border-top:1px solid rgba(255,255,255,0.06); padding:46px 6% 26px; }
+.footer-grid { display:grid; grid-template-columns:1.5fr 1fr 1fr 1fr; gap:36px; margin-bottom:36px; }
+.footer-brand-wrap { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+.footer-brand-logo { width:48px; height:48px; border-radius:50%; overflow:hidden; background:white; padding:3px; flex-shrink:0; }
+.footer-brand-logo img { width:100%; height:100%; object-fit:contain; border-radius:50%; }
+.footer-brand-name { font-family:var(--font-display); font-size:18px; font-weight:700; color:var(--white); }
+.footer-brand-tag { font-size:10px; color:var(--walnut-gold); letter-spacing:0.06em; text-transform:uppercase; }
+.footer-brand-desc { font-size:12px; color:rgba(255,255,255,0.4); line-height:1.65; margin-bottom:18px; }
+.footer-social { display:flex; gap:10px; }
+.footer-social-btn { width:38px; height:38px; border-radius:9px; background:rgba(255,255,255,0.08); display:flex; align-items:center; justify-content:center; text-decoration:none; transition:background 0.2s; font-size:16px; }
+.footer-social-btn:hover { background:var(--saffron); }
+.footer-col-title { font-size:11px; font-weight:700; color:var(--white); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:14px; }
+.footer-links { list-style:none; display:flex; flex-direction:column; gap:9px; }
+.footer-links a { font-size:13px; color:rgba(255,255,255,0.42); text-decoration:none; transition:color 0.2s; }
+.footer-links a:hover { color:var(--walnut-gold); }
+.footer-bottom { border-top:1px solid rgba(255,255,255,0.06); padding-top:22px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; }
+.footer-bottom-text { font-size:12px; color:rgba(255,255,255,0.28); }
+.footer-bottom-badge { background:rgba(193,127,58,0.15); border:1px solid rgba(193,127,58,0.25); border-radius:20px; padding:4px 14px; font-size:11px; color:var(--walnut-gold); }
+
+/* SCROLL TOP */
+.scroll-top { position:fixed; bottom:100px; right:28px; z-index:998; width:42px; height:42px; border-radius:50%; background:var(--chinar-green); border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; opacity:0; transform:translateY(10px); transition:all 0.3s; box-shadow:0 4px 16px rgba(26,43,28,0.3); }
+.scroll-top.show { opacity:1; transform:translateY(0); }
+.scroll-top:hover { background:var(--saffron); }
+
+/* WA FLOAT */
+.wa-float { position:fixed; bottom:28px; right:28px; z-index:999; display:flex; flex-direction:column; align-items:flex-end; gap:10px; }
+.wa-label { background:var(--chinar-green); color:var(--white); font-size:12px; font-weight:500; padding:6px 14px; border-radius:20px; white-space:nowrap; box-shadow:0 4px 14px rgba(26,43,28,0.3); animation:waBounce 3s ease-in-out infinite; }
+@keyframes waBounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+.wa-btn { width:56px; height:56px; border-radius:50%; background:#25D366; display:flex; align-items:center; justify-content:center; text-decoration:none; box-shadow:0 6px 22px rgba(37,211,102,0.4); transition:transform 0.3s; }
+.wa-btn:hover { transform:scale(1.1); }
+
+/* RESPONSIVE */
+@media (max-width:900px) {
+  .hero-stats { grid-template-columns:repeat(2,1fr); }
+  .hero-logo-bg { display:none; }
+  .hero-ctas { flex-direction:column; align-items:flex-start; }
+  .hero-ctas .btn-primary, .hero-ctas .btn-outline { width:100%; max-width:300px; }
+  .why-grid { grid-template-columns:1fr; }
+  .why-image-wrap { display:none; }
+  .services-grid { grid-template-columns:1fr; }
+  .subsidy-cards { grid-template-columns:1fr; }
+  .process-steps { grid-template-columns:1fr; gap:24px; }
+  .process-steps::before { display:none; }
+  .testimonials-grid { grid-template-columns:1fr; }
+  .contact-grid { grid-template-columns:1fr; }
+  .footer-grid { grid-template-columns:1fr 1fr; }
+  .culture-images { grid-template-columns:1fr; }
+  .culture-img-wrap:first-child { grid-row:span 1; }
+  .culture-img-wrap:first-child .culture-img { min-height:240px; }
+  .hamburger { display:flex; }
+  .nav-links { display:none; }
+  .calc-results { grid-template-columns:1fr; }
+  .calc-cta-wrap { grid-template-columns:1fr; }
+  .gallery-grid { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- PAGE LOADER -->
+<div id="page-loader">
+  <img src="logo.png" alt="Valley Solars" class="loader-logo">
+  <div class="loader-text">Valley Solars</div>
+  <div class="loader-sub">Powering Kashmir's Future</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+</div>
+
+<!-- ANNOUNCEMENT -->
+<div class="announcement">
+  🎉 J&K Special: ₹94,800 solar subsidy available — <a href="#subsidy">17,000+ slots already claimed across Kashmir →</a>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <div class="nav-logo-icon"><img src="logo.png" alt="Valley Solars Logo"></div>
+    <div>
+      <span class="nav-logo-name">Valley Solars</span>
+      <span class="nav-logo-tag">Powering Kashmir's Future</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#subsidy">Subsidy</a></li>
+    <li><a href="#calculator">Calculator</a></li>
+    <li><a href="#work">Our Work</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact" class="nav-cta">Free Site Visit</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#why" onclick="closeMobile()">Why Valley Solars</a>
+  <a href="#services" onclick="closeMobile()">Our Services</a>
+  <a href="#subsidy" onclick="closeMobile()">Government Subsidy</a>
+  <a href="#calculator" onclick="closeMobile()">Savings Calculator</a>
+  <a href="#work" onclick="closeMobile()">Our Work</a>
+  <a href="#testimonials" onclick="closeMobile()">Customer Reviews</a>
+  <a href="#contact" class="m-cta" onclick="closeMobile()">📍 Book Free Site Visit</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-pattern"></div>
+  <div class="hero-logo-bg"></div>
+  <div class="hero-content">
+    <div class="hero-logo-mark"><img src="logo.png" alt="Valley Solars"></div>
+    <div class="hero-badge">
+      <div class="hero-badge-dot"></div>
+      <span>PM Surya Ghar Certified · Serving All of Kashmir Valley</span>
+    </div>
+    <h1 class="hero-title">Power Your Home.<br><em>Own Your Future.</em></h1>
+    <p class="hero-sub">Powering Kashmir's Future, One Rooftop at a Time</p>
+    <p class="hero-desc">J&K families get up to ₹94,800 in government subsidy — more than any other state in India. Valley Solars serves every district across Kashmir Valley with certified installations and zero paperwork for you.</p>
+    <div class="hero-ctas">
+      <a href="#contact" class="btn-primary">Get Free Site Visit</a>
+      <a href="#calculator" class="btn-outline">Calculate My Savings →</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat"><span class="hero-stat-val">90+</span><span class="hero-stat-label">Installations Complete</span></div>
+    <div class="hero-stat"><span class="hero-stat-val">₹94,800</span><span class="hero-stat-label">J&K Government Subsidy</span></div>
+    <div class="hero-stat"><span class="hero-stat-val">25 yrs</span><span class="hero-stat-label">System Warranty</span></div>
+    <div class="hero-stat"><span class="hero-stat-val">5 ★</span><span class="hero-stat-label">Customer Rating</span></div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item"><span>🏛️</span><span class="trust-item-text">KPDCL Registered</span></div>
+  <div class="trust-div"></div>
+  <div class="trust-item"><span>☀️</span><span class="trust-item-text">MNRE Approved Panels</span></div>
+  <div class="trust-div"></div>
+  <div class="trust-item"><span>🗺️</span><span class="trust-item-text">All Kashmir Valley Districts</span></div>
+  <div class="trust-div"></div>
+  <div class="trust-item"><span>🏦</span><span class="trust-item-text">JK Bank Finance Partner</span></div>
+  <div class="trust-div"></div>
+  <div class="trust-item"><span>⭐</span><span class="trust-item-text">5-Star Rated · 90+ Installs</span></div>
+</div>
+
+<!-- WHY VALLEY SOLARS -->
+<section class="why-section" id="why">
+  <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">Why Valley Solars</span></div>
+  <h2 class="section-title fade-up">Kashmir Deserves Better<br>Than <em>Generic Solar.</em></h2>
+  <p class="section-desc fade-up">In a market full of vendors cutting corners, Valley Solars was built on one principle: quality you can see, service you can count on, and a team that stands behind every installation for 25 years.</p>
+  <div class="why-grid">
+    <div class="why-image-wrap fade-up">
+      <img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Kashmir traditional house" class="why-image-main" onerror="this.src='https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80'"/>
+      <div class="why-accent-card"><span class="why-accent-card-val">90+</span><span class="why-accent-card-label">installs across Kashmir</span></div>
+      <div class="why-image-badge"><span class="why-image-badge-val">₹94,800</span><div class="why-image-badge-label">J&K Subsidy Available</div></div>
+    </div>
+    <div>
+      <div class="why-features">
+        <div class="why-feature fade-up"><div class="why-feature-icon" style="background:#E8F5E9;">🏛️</div><div><div class="why-feature-title">MNRE & KPDCL Certified</div><div class="why-feature-desc">Every system is government-registered and commissioned through official KPDCL channels. Your ₹94,800 subsidy is guaranteed, not a promise.</div></div></div>
+        <div class="why-feature fade-up fd1"><div class="why-feature-icon" style="background:#FFF3E0;">🔒</div><div><div class="why-feature-title">No Shortcuts on Quality</div><div class="why-feature-desc">BIS-certified inverters, correct-gauge copper wiring, MNRE-approved panels. When a competitor quotes ₹20,000 less — ask them what they're cutting.</div></div></div>
+        <div class="why-feature fade-up fd2"><div class="why-feature-icon" style="background:#E3F2FD;">📋</div><div><div class="why-feature-title">We Handle Everything</div><div class="why-feature-desc">Site survey, installation, KPDCL net meter, subsidy claim — all handled by our team. You don't fill a single form.</div></div></div>
+        <div class="why-feature fade-up fd3"><div class="why-feature-icon" style="background:#FCE4EC;">🗺️</div><div><div class="why-feature-title">All of Kashmir Valley</div><div class="why-feature-desc">From Kupwara to Anantnag, Baramulla to Ganderbal — we install across every district. One team, whole valley.</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">Our Services</span></div>
+  <h2 class="section-title fade-up">Everything Your Home<br><em>Needs, Done Right.</em></h2>
+  <div class="services-grid">
+    <div class="service-card fade-up">
+      <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=80" alt="Solar Panel Installation" class="service-card-img"/>
+      <div class="service-card-body">
+        <div class="service-card-icon" style="background:#E8F5E9;">🏠</div>
+        <h3 class="service-card-title">Rooftop Solar Installation</h3>
+        <p class="service-card-desc">Complete on-grid rooftop solar for homes, businesses, farms, and hotels across all of Kashmir. Certified panels, proper mounting, full KPDCL commissioning.</p>
+        <a href="#contact" class="service-card-link">Get a quote →</a>
+      </div>
+    </div>
+    <div class="service-card fade-up fd1">
+      <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&q=80" alt="Subsidy Application" class="service-card-img"/>
+      <div class="service-card-body">
+        <div class="service-card-icon" style="background:#FFF3E0;">📄</div>
+        <h3 class="service-card-title">Subsidy Application Handling</h3>
+        <p class="service-card-desc">We manage your entire ₹94,800 government subsidy claim — registration, documentation, KPDCL coordination, and bank credit follow-up. Free of charge.</p>
+        <a href="#subsidy" class="service-card-link">Learn more →</a>
+      </div>
+    </div>
+    <div class="service-card fade-up fd2">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Free Site Survey" class="service-card-img"/>
+      <div class="service-card-body">
+        <div class="service-card-icon" style="background:#E3F2FD;">📍</div>
+        <h3 class="service-card-title">Free Home Site Survey</h3>
+        <p class="service-card-desc">Our team visits your home anywhere in Kashmir Valley, assesses your roof, calculates your savings, and recommends the right system. No obligation, completely free.</p>
+        <a href="#contact" class="service-card-link">Book a visit →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SUBSIDY — 3kW, 5kW, 7kW only. Correct split: ₹85,000 central + ₹9,800 UT -->
+<section class="subsidy-section" id="subsidy">
+  <div class="subsidy-bg-pat"></div>
+  <div style="position:relative;z-index:2;">
+    <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">PM Surya Ghar Scheme</span></div>
+    <h2 class="section-title fade-up">J&K Gets More.<br><em>Here's Exactly How Much.</em></h2>
+    <p class="section-desc fade-up">Jammu & Kashmir is a special category UT — your subsidy is higher than almost every other state. The central government gives ₹85,000 and J&K UT adds ₹9,800 on top, totalling ₹94,800.</p>
+    <div class="subsidy-cards">
+      <div class="subsidy-card fade-up">
+        <div class="sc-kw">3 kW System</div>
+        <div class="sc-price">₹1,59,000</div>
+        <div class="sc-label">Total project cost</div>
+        <div class="sc-breakdown">
+          <div class="sc-row"><span class="sc-row-l">Central Govt (MNRE)</span><span class="sc-row-v">− ₹85,000</span></div>
+          <div class="sc-row"><span class="sc-row-l">J&K UT Additional</span><span class="sc-row-v">− ₹9,800</span></div>
+          <div class="sc-div"></div>
+          <div class="sc-net-row"><span class="sc-net-l">You Pay</span><span class="sc-net-v">₹64,200</span></div>
+        </div>
+      </div>
+      <div class="subsidy-card featured fade-up fd1">
+        <div class="featured-badge">Most Popular</div>
+        <div class="sc-kw">5 kW System</div>
+        <div class="sc-price">₹2,58,000</div>
+        <div class="sc-label">Total project cost</div>
+        <div class="sc-breakdown">
+          <div class="sc-row"><span class="sc-row-l">Central Govt (MNRE)</span><span class="sc-row-v">− ₹85,000</span></div>
+          <div class="sc-row"><span class="sc-row-l">J&K UT Additional</span><span class="sc-row-v">− ₹9,800</span></div>
+          <div class="sc-div"></div>
+          <div class="sc-net-row"><span class="sc-net-l">You Pay</span><span class="sc-net-v">₹1,63,200</span></div>
+        </div>
+      </div>
+      <div class="subsidy-card fade-up fd2">
+        <div class="sc-kw">7 kW System</div>
+        <div class="sc-price">₹3,57,000</div>
+        <div class="sc-label">Total project cost</div>
+        <div class="sc-breakdown">
+          <div class="sc-row"><span class="sc-row-l">Central Govt (MNRE)</span><span class="sc-row-v">− ₹85,000</span></div>
+          <div class="sc-row"><span class="sc-row-l">J&K UT Additional</span><span class="sc-row-v">− ₹9,800</span></div>
+          <div class="sc-div"></div>
+          <div class="sc-net-row"><span class="sc-net-l">You Pay</span><span class="sc-net-v">₹2,62,200</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="subsidy-note fade-up">
+      Subsidy = <strong>₹85,000 central government (MNRE)</strong> + <strong>₹9,800 J&K UT additional</strong> = <strong>₹94,800 total</strong>. Capped at 3kW regardless of system size. Credited directly to your bank account within 30 days of KPDCL commissioning. <strong>Valley Solars handles the entire application — you don't fill a single form.</strong>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<section class="calc-section" id="calculator">
+  <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">Solar Savings Calculator</span></div>
+  <h2 class="section-title fade-up">See Your Exact<br><em>Savings in 30 Seconds.</em></h2>
+  <div class="calc-wrapper fade-up">
+    <div class="calc-header-bar">
+      <h3>Valley Solars — Savings Calculator</h3>
+      <p>Based on your exact pricing, J&K subsidy split, and Kashmir generation data</p>
+    </div>
+    <div class="calc-body">
+      <div class="calc-lbl">Select system size</div>
+      <div class="sys-btns">
+        <div class="sys-btn" onclick="selKW(3)" id="kbtn-3"><div class="kw">3 kW</div><div class="ks">kWp</div><div class="ki">1–2 BHK</div></div>
+        <div class="sys-btn active" onclick="selKW(5)" id="kbtn-5"><div class="kw">5 kW</div><div class="ks">kWp</div><div class="ki">2–3 BHK</div></div>
+        <div class="sys-btn" onclick="selKW(6)" id="kbtn-6"><div class="kw">6 kW</div><div class="ks">kWp</div><div class="ki">3–4 BHK</div></div>
+        <div class="sys-btn" onclick="selKW(7)" id="kbtn-7"><div class="kw">7 kW</div><div class="ks">kWp</div><div class="ki">Large home</div></div>
+        <div class="sys-btn" onclick="selKW(10)" id="kbtn-10"><div class="kw">10 kW</div><div class="ks">kWp</div><div class="ki">Commercial</div></div>
+      </div>
+      <div class="calc-lbl">Your current monthly electricity bill</div>
+      <div class="bill-slider-top">
+        <span style="font-size:13px;color:var(--text-mid);">Monthly bill</span>
+        <span class="bill-display" id="bill-disp">₹2,500</span>
+      </div>
+      <input type="range" class="styled" min="500" max="8000" step="100" value="2500" oninput="onSlider(this.value)">
+      <div class="slider-hints"><span>₹500</span><span>₹8,000</span></div>
+      <div class="calc-results">
+        <div class="cr green"><div class="cr-label">You pay after subsidy</div><div class="cr-val" id="r-pay">—</div><div class="cr-sub">After ₹94,800 J&K subsidy</div></div>
+        <div class="cr gold"><div class="cr-label">Est. monthly savings</div><div class="cr-val" id="r-save">—</div><div class="cr-sub" id="r-save-sub">—</div></div>
+        <div class="cr"><div class="cr-label">System payback period</div><div class="cr-val" id="r-payback">—</div><div class="cr-sub">Then free electricity</div></div>
+        <div class="cr"><div class="cr-label">JK Bank EMI (if financed)</div><div class="cr-val" id="r-emi">—</div><div class="cr-sub" id="r-emi-sub">9% · 7 years</div></div>
+      </div>
+      <div class="calc-bk">
+        <div class="bk-row"><span>Total project cost</span><span id="bk-cost">—</span></div>
+        <div class="bk-row"><span>Central govt subsidy (MNRE)</span><span class="pos" id="bk-central">—</span></div>
+        <div class="bk-row"><span>J&K UT additional subsidy</span><span class="pos" id="bk-jk">—</span></div>
+        <div class="bk-row"><span class="bold">Your net cost</span><span class="bold gold" id="bk-net">—</span></div>
+        <div class="bk-row"><span id="bk-note" style="font-size:11px;color:var(--text-light);"></span><span></span></div>
+      </div>
+      <div class="calc-lifetime">
+        <div><div class="lt-label">Total savings over 25 years</div><div class="lt-val" id="lt-val">—</div></div>
+        <div><div class="lt-r-label">Pure profit after payback</div><div class="lt-r-val" id="lt-profit">—</div></div>
+      </div>
+      <!-- CTA buttons — clear grid layout, never hidden or cluttered -->
+      <div class="calc-cta-wrap">
+        <a href="#contact" class="btn-primary">Book Free Site Visit</a>
+        <a href="https://wa.me/917006550513" target="_blank" class="btn-outline-dark">WhatsApp Us</a>
+      </div>
+      <p class="calc-disclaimer">Estimates based on Kashmir Valley averages (~90 units/kW/month). Subsidy: ₹85,000 central + ₹9,800 J&K UT = ₹94,800, capped at 3kW.</p>
+    </div>
+  </div>
+</section>
+
+<!-- OUR WORK — placeholder gallery with guide for future additions -->
+<section class="gallery-section" id="work">
+  <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">Our Work Across Kashmir</span></div>
+  <h2 class="section-title fade-up">Real Rooftops.<br><em>Real Kashmir.</em></h2>
+  <p class="section-desc fade-up" style="margin-bottom:28px;">Every installation you see here is a real home or business across the Kashmir Valley — your neighbours who now pay little to nothing on electricity.</p>
+
+  <!--
+  =====================================================================
+  HOW TO ADD YOUR PHOTOS AND VIDEOS — READ THIS WHEN YOU'RE READY
+  =====================================================================
+
+  ADDING A PHOTO:
+  1. Upload your image file (e.g. "budgam-install.jpg") to the same folder as index.html on GitHub
+  2. Copy the block below and paste it inside the gallery-grid div, replacing a placeholder:
+
+  <div class="gallery-item fade-up">
+    <img src="YOUR-IMAGE-FILENAME.jpg" alt="Solar installation Kashmir" class="gallery-img">
+    <div class="gallery-item-footer">
+      <div class="gallery-item-location">📍 Budgam, Kashmir</div>
+      <div class="gallery-item-caption">3kW system — April 2026</div>
+    </div>
+  </div>
+
+  ADDING A VIDEO:
+  Copy the block below and paste it inside the gallery-grid div:
+
+  <div class="gallery-item fade-up">
+    <video class="gallery-video" controls muted playsinline>
+      <source src="YOUR-VIDEO-FILENAME.mp4" type="video/mp4">
+    </video>
+    <div class="gallery-item-footer">
+      <div class="gallery-item-location">📍 Srinagar, Karan Nagar</div>
+      <div class="gallery-item-caption">Installation walkthrough — May 2026</div>
+    </div>
+  </div>
+
+  LOCATIONS TO USE: Budgam · Srinagar · Baramulla · Anantnag · Sopore · Kupwara · Ganderbal · Bandipora · Pulwama
+
+  TIPS:
+  - Keep image files under 2MB for fast loading (use TinyPNG.com to compress)
+  - Name files clearly: "baramulla-3kw-april2026.jpg"
+  - You can have as many items as you want — the grid adjusts automatically
+  - Delete placeholder blocks as you add real photos
+  =====================================================================
+  -->
+
+  <div class="gallery-grid">
+
+    <!-- PLACEHOLDER 1 — replace with your first real photo -->
+    <div class="gallery-item placeholder fade-up">
+      <div class="placeholder-icon">📸</div>
+      <div class="placeholder-num">Photo 1</div>
+      <div class="placeholder-text">Add your first installation photo</div>
+      <div class="placeholder-sub">Replace this block with your image<br>See the guide above in the code</div>
+    </div>
+
+    <!-- PLACEHOLDER 2 — replace with your second real photo or video -->
+    <div class="gallery-item placeholder fade-up fd1">
+      <div class="placeholder-icon">🎬</div>
+      <div class="placeholder-num">Photo / Video 2</div>
+      <div class="placeholder-text">Add photo or video here</div>
+      <div class="placeholder-sub">Supports .jpg, .png, .mp4 files<br>Include location in the footer</div>
+    </div>
+
+    <!-- PLACEHOLDER 3 -->
+    <div class="gallery-item placeholder fade-up fd2">
+      <div class="placeholder-icon">📸</div>
+      <div class="placeholder-num">Photo 3</div>
+      <div class="placeholder-text">Add your third installation</div>
+      <div class="placeholder-sub">Each card shows location below<br>e.g. 📍 Baramulla, Kashmir</div>
+    </div>
+
+    <!-- PLACEHOLDER 4 -->
+    <div class="gallery-item placeholder fade-up fd1">
+      <div class="placeholder-icon">📸</div>
+      <div class="placeholder-num">Photo 4</div>
+      <div class="placeholder-text">More installations coming soon</div>
+      <div class="placeholder-sub">Copy this block to add more slots<br>No limit on how many you add</div>
+    </div>
+
+    <!-- PLACEHOLDER 5 -->
+    <div class="gallery-item placeholder fade-up fd2">
+      <div class="placeholder-icon">🎬</div>
+      <div class="placeholder-num">Video 5</div>
+      <div class="placeholder-text">Add a walkthrough video</div>
+      <div class="placeholder-sub">Videos play inline on the website<br>Great for showing the full process</div>
+    </div>
+
+    <!-- PLACEHOLDER 6 -->
+    <div class="gallery-item placeholder fade-up fd3">
+      <div class="placeholder-icon">📸</div>
+      <div class="placeholder-num">Photo 6</div>
+      <div class="placeholder-text">More to come, Inshallah</div>
+      <div class="placeholder-sub">90+ installations and counting<br>Start documenting from today</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- HOW IT ACTUALLY WORKS — Interactive Solar Diagram -->
+<section style="background:var(--white);padding:88px 6%;" id="how-solar-works">
+  <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">How On-Grid Solar Works</span></div>
+  <h2 class="section-title fade-up">See Exactly How<br><em>Your System Operates.</em></h2>
+  <p class="section-desc fade-up" style="margin-bottom:32px;">Switch between Sunny Day, Night, Cloudy, and Peak Use modes to see live power flows. Click each explanation tab in English and Urdu.</p>
+
+  <div class="fade-up" style="background:var(--papier);border-radius:18px;padding:24px;border:0.5px solid rgba(0,0,0,0.07);">
+
+    <style>
+    .vs-fr{stroke-dasharray:8 5;animation:vs-flowR .8s linear infinite}
+    .vs-fd{stroke-dasharray:8 5;animation:vs-flowD .8s linear infinite}
+    .vs-fu{stroke-dasharray:8 5;animation:vs-flowU .8s linear infinite}
+    .vs-fl{stroke-dasharray:8 5;animation:vs-flowL .8s linear infinite}
+    @keyframes vs-flowR{from{stroke-dashoffset:24}to{stroke-dashoffset:0}}
+    @keyframes vs-flowD{from{stroke-dashoffset:24}to{stroke-dashoffset:0}}
+    @keyframes vs-flowU{from{stroke-dashoffset:0}to{stroke-dashoffset:24}}
+    @keyframes vs-flowL{from{stroke-dashoffset:0}to{stroke-dashoffset:24}}
+    @keyframes vs-ray{0%,100%{opacity:.9}50%{opacity:.4}}
+    @keyframes vs-dial{0%{transform:rotate(-30deg)}50%{transform:rotate(30deg)}100%{transform:rotate(-30deg)}}
+    .vs-ray{animation:vs-ray 2s ease-in-out infinite}
+    .vs-needle{transform-origin:50% 100%;animation:vs-dial 3s ease-in-out infinite}
+    .vs-paused{animation-play-state:paused;opacity:.2}
+    .vs-exp-step{display:none}
+    .vs-exp-step.vs-show{display:block}
+    .vs-urdu{font-family:'Noto Nastaliq Urdu','Jameel Noori Nastaleeq',serif;direction:rtl;line-height:2.2;text-align:right}
+    </style>
+
+    <div style="display:flex;gap:8px;justify-content:center;margin-bottom:18px;flex-wrap:wrap;">
+      <button onclick="vsSM('day')"   id="vs-mb-day"   style="padding:8px 18px;border-radius:20px;border:1px solid var(--dal-teal);background:var(--chinar-green);color:white;font-family:var(--font-body);font-size:13px;cursor:pointer;">☀ Sunny Day</button>
+      <button onclick="vsSM('cloud')" id="vs-mb-cloud" style="padding:8px 18px;border-radius:20px;border:1px solid rgba(0,0,0,0.1);background:var(--papier-dark);color:var(--text-mid);font-family:var(--font-body);font-size:13px;cursor:pointer;">⛅ Cloudy</button>
+      <button onclick="vsSM('night')" id="vs-mb-night" style="padding:8px 18px;border-radius:20px;border:1px solid rgba(0,0,0,0.1);background:var(--papier-dark);color:var(--text-mid);font-family:var(--font-body);font-size:13px;cursor:pointer;">🌙 Night</button>
+      <button onclick="vsSM('peak')"  id="vs-mb-peak"  style="padding:8px 18px;border-radius:20px;border:1px solid rgba(0,0,0,0.1);background:var(--papier-dark);color:var(--text-mid);font-family:var(--font-body);font-size:13px;cursor:pointer;">⚡ Peak Use</button>
+    </div>
+
+    <svg width="100%" viewBox="0 0 680 400" role="img" aria-label="On-grid solar system power flow diagram">
+    <defs><marker id="vs-arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+    <rect x="0" y="0" width="680" height="120" fill="#E8F4FC" opacity=".5"/>
+    <rect x="0" y="280" width="680" height="120" fill="#EDF7EE" opacity=".4"/>
+    <text x="12" y="18" font-size="10" fill="#94a3b8" font-family="sans-serif">Solar Zone</text>
+    <text x="12" y="392" font-size="10" fill="#94a3b8" font-family="sans-serif">Grid Zone</text>
+    <g id="vs-sun">
+      <circle cx="60" cy="60" r="26" fill="#EF9F27" opacity=".92"/>
+      <g class="vs-ray"><line x1="60" y1="26" x2="60" y2="18" stroke="#EF9F27" stroke-width="2.5" stroke-linecap="round"/></g>
+      <g class="vs-ray" style="animation-delay:.15s"><line x1="82" y1="38" x2="88" y2="32" stroke="#EF9F27" stroke-width="2.5" stroke-linecap="round"/></g>
+      <g class="vs-ray" style="animation-delay:.3s"><line x1="94" y1="60" x2="102" y2="60" stroke="#EF9F27" stroke-width="2.5" stroke-linecap="round"/></g>
+      <g class="vs-ray" style="animation-delay:.1s"><line x1="82" y1="82" x2="88" y2="88" stroke="#EF9F27" stroke-width="2.5" stroke-linecap="round"/></g>
+      <g class="vs-ray" style="animation-delay:.25s"><line x1="38" y1="38" x2="32" y2="32" stroke="#EF9F27" stroke-width="2.5" stroke-linecap="round"/></g>
+      <g class="vs-ray" style="animation-delay:.4s"><line x1="26" y1="60" x2="18" y2="60" stroke="#EF9F27" stroke-width="2.5" stroke-linecap="round"/></g>
+      <g class="vs-ray" style="animation-delay:.2s"><line x1="38" y1="82" x2="32" y2="88" stroke="#EF9F27" stroke-width="2.5" stroke-linecap="round"/></g>
+    </g>
+    <rect x="120" y="20" width="200" height="100" rx="6" fill="#0f172a" stroke="#1e3a5f" stroke-width="1.5"/>
+    <rect x="128" y="28" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="174" y="28" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="220" y="28" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="266" y="28" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="128" y="58" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="174" y="58" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="220" y="58" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="266" y="58" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="128" y="88" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="174" y="88" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="220" y="88" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="266" y="88" width="40" height="24" rx="2" fill="#1d4ed8" stroke="#60a5fa" stroke-width=".6"/>
+    <rect x="120" y="126" width="200" height="20" rx="4" fill="#1e293b"/>
+    <text x="220" y="140" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="500" font-family="sans-serif">Solar Panels — سولر پینل</text>
+    <line x1="220" y1="146" x2="220" y2="186" stroke="#ca8a04" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <line id="vs-wdc" class="vs-fd" x1="220" y1="148" x2="220" y2="184" stroke="#fde047" stroke-width="2" fill="none" marker-end="url(#vs-arr)"/>
+    <rect x="205" y="160" width="30" height="16" rx="4" fill="#FFFEF0" stroke="#d97706" stroke-width=".8"/>
+    <text x="220" y="172" text-anchor="middle" fill="#854d0e" font-size="10" font-family="sans-serif">DC</text>
+    <rect x="140" y="188" width="160" height="80" rx="10" fill="white" stroke="#15803d" stroke-width="1.5"/>
+    <rect x="152" y="200" width="136" height="44" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width=".8"/>
+    <path d="M162 222 Q170 208 178 222 Q186 236 194 222 Q202 208 210 222 Q218 236 226 222 Q234 208 242 222 Q250 236 258 222 Q266 208 274 222" fill="none" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round"/>
+    <rect x="140" y="272" width="160" height="20" rx="5" fill="#15803d"/>
+    <text x="220" y="286" text-anchor="middle" fill="white" font-size="11" font-weight="500" font-family="sans-serif">Inverter — انورٹر</text>
+    <text x="158" y="256" fill="#4ade80" font-size="10" font-family="sans-serif">DC in</text>
+    <text x="238" y="256" fill="#4ade80" font-size="10" font-family="sans-serif">AC out</text>
+    <line x1="300" y1="228" x2="360" y2="228" stroke="#2C3E2D" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <line id="vs-wac1" class="vs-fr" x1="302" y1="228" x2="358" y2="228" stroke="#86efac" stroke-width="2" fill="none" marker-end="url(#vs-arr)"/>
+    <rect x="312" y="218" width="28" height="16" rx="4" fill="white" stroke="#d1d5db" stroke-width=".5"/>
+    <text x="326" y="230" text-anchor="middle" fill="#166534" font-size="10" font-family="sans-serif">AC</text>
+    <polygon points="460,165 390,220 398,220 398,295 522,295 522,220 530,220" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+    <polygon points="460,165 390,220 530,220" fill="#334155" opacity=".12"/>
+    <rect x="443" y="258" width="34" height="37" rx="3" fill="white" stroke="#334155" stroke-width=".8"/>
+    <circle cx="443" cy="277" r="2.5" fill="#C17F3A"/>
+    <rect x="400" y="232" width="28" height="22" rx="2" fill="#bfdbfe" stroke="#334155" stroke-width=".8"/>
+    <rect x="492" y="232" width="28" height="22" rx="2" fill="#bfdbfe" stroke="#334155" stroke-width=".8"/>
+    <rect x="390" y="298" width="140" height="20" rx="5" fill="#1e293b" opacity=".7"/>
+    <text x="460" y="312" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="500" font-family="sans-serif">Your Home — آپ کا گھر</text>
+    <rect x="148" y="320" width="144" height="68" rx="10" fill="white" stroke="#c17f3a" stroke-width="1.8"/>
+    <circle cx="220" cy="348" r="22" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+    <path d="M202 348 A18 18 0 0 1 238 348" fill="none" stroke="#fbbf24" stroke-width="1" stroke-dasharray="2 2"/>
+    <g class="vs-needle" style="transform-origin:220px 348px"><line x1="220" y1="348" x2="220" y2="330" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/></g>
+    <circle cx="220" cy="348" r="3" fill="#c17f3a"/>
+    <text font-size="10" fill="#16a34a" x="208" y="345" font-family="sans-serif">↑</text>
+    <text font-size="10" fill="#dc2626" x="224" y="356" font-family="sans-serif">↓</text>
+    <rect x="148" y="390" width="144" height="18" rx="4" fill="#c17f3a"/>
+    <text x="220" y="403" text-anchor="middle" fill="white" font-size="10" font-weight="500" font-family="sans-serif">Bi-directional Net Meter</text>
+    <line x1="220" y1="293" x2="220" y2="318" stroke="#c17f3a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <line id="vs-wac2" class="vs-fd" x1="220" y1="295" x2="220" y2="316" stroke="#fcd34d" stroke-width="1.8" fill="none" marker-end="url(#vs-arr)"/>
+    <line x1="580" y1="80" x2="580" y2="380" stroke="#94a3b8" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="550" y1="105" x2="610" y2="105" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="550" y1="115" x2="580" y2="128" stroke="#64748b" stroke-width="1.2"/>
+    <line x1="610" y1="115" x2="580" y2="128" stroke="#64748b" stroke-width="1.2"/>
+    <circle cx="550" cy="105" r="4" fill="#d97706"/>
+    <circle cx="610" cy="105" r="4" fill="#d97706"/>
+    <rect x="535" y="138" width="90" height="42" rx="8" fill="white" stroke="#94a3b8" stroke-width="1"/>
+    <text x="580" y="157" text-anchor="middle" fill="#1e293b" font-size="12" font-weight="500" font-family="sans-serif">National Grid</text>
+    <text x="580" y="173" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">قومی گرڈ — 230V</text>
+    <path d="M364 358 L490 358 L490 196 L534 196" stroke="#94a3b8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path id="vs-wsurplus" class="vs-fr" d="M364 353 L490 353 L490 192 L532 192" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#vs-arr)"/>
+    <path id="vs-wimport" class="vs-fl vs-paused" d="M532 208 L490 208 L490 364 L364 364" stroke="#dc2626" stroke-width="2" fill="none" marker-end="url(#vs-arr)"/>
+    <rect x="12" y="314" width="118" height="78" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width=".5"/>
+    <text x="20" y="332" fill="#1e293b" font-size="11" font-weight="500" font-family="sans-serif">Legend</text>
+    <line x1="20" y1="346" x2="44" y2="346" stroke="#fde047" stroke-width="2.5" stroke-dasharray="5 3"/>
+    <text x="50" y="350" fill="#64748b" font-size="10" font-family="sans-serif">DC current</text>
+    <line x1="20" y1="363" x2="44" y2="363" stroke="#86efac" stroke-width="2.5" stroke-dasharray="5 3"/>
+    <text x="50" y="367" fill="#64748b" font-size="10" font-family="sans-serif">AC current</text>
+    <line x1="20" y1="380" x2="44" y2="380" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="5 3"/>
+    <text x="50" y="384" fill="#64748b" font-size="10" font-family="sans-serif">Export / Import</text>
+    <rect x="540" y="220" width="128" height="96" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width=".5"/>
+    <text x="604" y="240" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">Generating</text>
+    <text id="vs-gen" x="604" y="258" text-anchor="middle" fill="#16a34a" font-size="15" font-weight="500" font-family="sans-serif">3.2 kW</text>
+    <line x1="552" y1="266" x2="656" y2="266" stroke="#e2e8f0" stroke-width=".5"/>
+    <text x="604" y="280" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">Home using</text>
+    <text id="vs-use" x="604" y="298" text-anchor="middle" fill="#C17F3A" font-size="15" font-weight="500" font-family="sans-serif">2.1 kW</text>
+    <rect x="540" y="325" width="128" height="64" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width=".5"/>
+    <text id="vs-bal-lbl" x="604" y="345" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">Net export</text>
+    <text id="vs-bal" x="604" y="370" text-anchor="middle" fill="#16a34a" font-size="18" font-weight="500" font-family="sans-serif">+1.1 kW</text>
+    </svg>
+
+    <!-- EXPLANATION TABS -->
+    <div style="margin-top:20px;border-top:0.5px solid rgba(0,0,0,0.08);padding-top:16px;">
+      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;">
+        <button onclick="vsShowExp(1)" id="vs-eb-1" style="padding:6px 14px;border-radius:6px;border:1px solid var(--chinar-green);background:var(--chinar-green);color:white;font-family:var(--font-body);font-size:12px;cursor:pointer;">1. Solar Panels</button>
+        <button onclick="vsShowExp(2)" id="vs-eb-2" style="padding:6px 14px;border-radius:6px;border:1px solid rgba(0,0,0,0.1);background:var(--papier-dark);color:var(--text-mid);font-family:var(--font-body);font-size:12px;cursor:pointer;">2. Inverter</button>
+        <button onclick="vsShowExp(3)" id="vs-eb-3" style="padding:6px 14px;border-radius:6px;border:1px solid rgba(0,0,0,0.1);background:var(--papier-dark);color:var(--text-mid);font-family:var(--font-body);font-size:12px;cursor:pointer;">3. Net Meter</button>
+        <button onclick="vsShowExp(4)" id="vs-eb-4" style="padding:6px 14px;border-radius:6px;border:1px solid rgba(0,0,0,0.1);background:var(--papier-dark);color:var(--text-mid);font-family:var(--font-body);font-size:12px;cursor:pointer;">4. Export / Import</button>
+        <button onclick="vsShowExp(5)" id="vs-eb-5" style="padding:6px 14px;border-radius:6px;border:1px solid rgba(0,0,0,0.1);background:var(--papier-dark);color:var(--text-mid);font-family:var(--font-body);font-size:12px;cursor:pointer;">5. Your Bill</button>
+      </div>
+      <div id="vs-exp-1" class="vs-exp-step vs-show" style="background:var(--papier);border-radius:12px;padding:16px 18px;">
+        <p style="font-size:14px;font-weight:500;color:var(--text-dark);margin:0 0 8px;">Solar Panels — سولر پینل</p>
+        <p style="font-size:13px;color:var(--text-mid);line-height:1.75;margin:0 0 10px;">Sunlight hits the photovoltaic cells and generates <strong>DC electricity</strong>. In Kashmir's peak summer months (May–July), a 3kW system can produce <strong>12–15 units per day</strong>.</p>
+        <p class="vs-urdu" style="font-size:14px;color:var(--text-mid);margin:0;">سورج کی روشنی سولر سیلز پر پڑتی ہے اور <strong>DC بجلی</strong> بنتی ہے۔ کشمیر میں گرمیوں میں 3kW نظام روزانہ <strong style="color:#16a34a;">12 سے 15 یونٹ</strong> بجلی بناتا ہے۔</p>
+      </div>
+      <div id="vs-exp-2" class="vs-exp-step" style="background:var(--papier);border-radius:12px;padding:16px 18px;">
+        <p style="font-size:14px;font-weight:500;color:var(--text-dark);margin:0 0 8px;">Inverter — انورٹر</p>
+        <p style="font-size:13px;color:var(--text-mid);line-height:1.75;margin:0 0 10px;">The inverter converts <strong>DC → AC</strong> automatically. Your appliances run on AC at <strong>230V, 50Hz</strong> — identical to grid power. The sine wave in the diagram shows this conversion happening.</p>
+        <p class="vs-urdu" style="font-size:14px;color:var(--text-mid);margin:0;">انورٹر خودکار طریقے سے <strong>DC کو AC</strong> میں بدلتا ہے۔ آپ کے گھر کے تمام آلات — پنکھے، لائٹیں، AC — یہی <strong style="color:#16a34a;">230V AC</strong> استعمال کرتے ہیں۔</p>
+      </div>
+      <div id="vs-exp-3" class="vs-exp-step" style="background:var(--papier);border-radius:12px;padding:16px 18px;">
+        <p style="font-size:14px;font-weight:500;color:var(--text-dark);margin:0 0 8px;">Bi-directional Net Meter — دو طرفہ میٹر</p>
+        <p style="font-size:13px;color:var(--text-mid);line-height:1.75;margin:0 0 10px;">This KPDCL meter measures power going <strong style="color:#16a34a;">↑ into the grid</strong> (surplus) and power coming <strong style="color:#dc2626;">↓ from the grid</strong> (deficit). You are billed only on the <strong>net difference</strong> — not your total consumption.</p>
+        <p class="vs-urdu" style="font-size:14px;color:var(--text-mid);margin:0;">یہ خاص KPDCL میٹر دو سمتوں میں ناپتا ہے: <strong style="color:#16a34a;">↑ گرڈ کو بھیجی</strong> بجلی اور <strong style="color:#dc2626;">↓ گرڈ سے لی</strong> بجلی۔ بل صرف فرق (نیٹ) پر آتا ہے۔</p>
+      </div>
+      <div id="vs-exp-4" class="vs-exp-step" style="background:var(--papier);border-radius:12px;padding:16px 18px;">
+        <p style="font-size:14px;font-weight:500;color:var(--text-dark);margin:0 0 8px;">Export & Import — برآمد اور درآمد</p>
+        <p style="font-size:13px;color:var(--text-mid);line-height:1.75;margin:0 0 10px;"><strong style="color:#16a34a;">Green flow (export)</strong> — Daytime surplus goes to the grid earning credits. <strong style="color:#dc2626;">Red flow (import)</strong> — At night or on cloudy days you draw back from the grid using your credits. In Kashmir, heavy summer export covers winter shortfall — your annual bill becomes near zero.</p>
+        <p class="vs-urdu" style="font-size:14px;color:var(--text-mid);margin:0;">دن میں زیادہ بجلی بنے تو <strong style="color:#16a34a;">گرڈ کو بھیجی جاتی ہے (کریڈٹ)</strong>۔ رات یا ابر آلود دنوں میں <strong style="color:#dc2626;">گرڈ سے لی جاتی ہے</strong>۔ سالانہ حساب میں آپ کا بل بہت کم یا صفر ہو جاتا ہے۔</p>
+      </div>
+      <div id="vs-exp-5" class="vs-exp-step" style="background:var(--papier);border-radius:12px;padding:16px 18px;">
+        <p style="font-size:14px;font-weight:500;color:var(--text-dark);margin:0 0 8px;">Your Bill — آپ کا بل</p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0;">
+          <div style="background:white;border-radius:8px;padding:12px;text-align:center;border:0.5px solid rgba(0,0,0,0.08);">
+            <div style="font-size:11px;color:var(--text-light);margin-bottom:4px;">Before solar</div>
+            <div style="font-size:20px;font-weight:600;color:#dc2626;">₹2,600</div>
+            <div style="font-size:10px;color:var(--text-light);">per month</div>
+          </div>
+          <div style="background:white;border-radius:8px;padding:12px;text-align:center;border:0.5px solid rgba(0,0,0,0.08);">
+            <div style="font-size:11px;color:var(--text-light);margin-bottom:4px;">After solar</div>
+            <div style="font-size:20px;font-weight:600;color:#16a34a;">₹280</div>
+            <div style="font-size:10px;color:var(--text-light);">per month</div>
+          </div>
+          <div style="background:white;border-radius:8px;padding:12px;text-align:center;border:0.5px solid rgba(0,0,0,0.08);">
+            <div style="font-size:11px;color:var(--text-light);margin-bottom:4px;">25-year saving</div>
+            <div style="font-size:20px;font-weight:600;color:var(--chinar-green);">₹6.9L</div>
+            <div style="font-size:10px;color:var(--text-light);">3kW system</div>
+          </div>
+        </div>
+        <p class="vs-urdu" style="font-size:14px;color:var(--text-mid);margin:0;">Budgam کے ایک گھر کا بل <strong style="color:#dc2626;">₹2,600</strong> سے کم ہو کر <strong style="color:#16a34a;">₹280</strong> ہو گیا — وہی گھر، وہی آلات، صرف سولر پینل نے فرق کیا۔</p>
+      </div>
+    </div>
+
+    <script>
+    const vsModes={
+      day:  {gen:'3.2 kW',use:'2.1 kW',bal:'+1.1 kW',balC:'#16a34a',balL:'Net export', dc:1,ac:1,sur:1,imp:0,sun:.95},
+      cloud:{gen:'0.9 kW',use:'1.4 kW',bal:'-0.5 kW',balC:'#dc2626',balL:'Net import', dc:1,ac:1,sur:0,imp:1,sun:.42},
+      night:{gen:'0 kW',  use:'1.2 kW',bal:'-1.2 kW',balC:'#dc2626',balL:'Importing',  dc:0,ac:0,sur:0,imp:1,sun:.1},
+      peak: {gen:'3.2 kW',use:'4.8 kW',bal:'-1.6 kW',balC:'#dc2626',balL:'Grid top-up',dc:1,ac:1,sur:0,imp:1,sun:.95}
+    };
+    function vsSM(m){
+      const d=vsModes[m];
+      document.getElementById('vs-gen').textContent=d.gen;
+      document.getElementById('vs-use').textContent=d.use;
+      document.getElementById('vs-bal').textContent=d.bal;
+      document.getElementById('vs-bal').setAttribute('fill',d.balC);
+      document.getElementById('vs-bal-lbl').textContent=d.balL;
+      document.getElementById('vs-sun').style.opacity=d.sun;
+      vsT('vs-wdc',d.dc); vsT('vs-wac1',d.ac); vsT('vs-wac2',d.ac);
+      vsT('vs-wsurplus',d.sur); vsT('vs-wimport',d.imp);
+      ['day','cloud','night','peak'].forEach(id=>{
+        const b=document.getElementById('vs-mb-'+id);
+        const on=id===m;
+        b.style.background=on?'#2C3E2D':'var(--papier-dark)';
+        b.style.color=on?'white':'var(--text-mid)';
+        b.style.border=on?'1px solid #2C3E2D':'1px solid rgba(0,0,0,0.1)';
+      });
+    }
+    function vsT(id,on){const e=document.getElementById(id);if(e)e.classList.toggle('vs-paused',!on);}
+    let vsCurExp=1;
+    function vsShowExp(n){
+      document.getElementById('vs-exp-'+vsCurExp).classList.remove('vs-show');
+      const ob=document.getElementById('vs-eb-'+vsCurExp);
+      ob.style.background='var(--papier-dark)';ob.style.color='var(--text-mid)';ob.style.border='1px solid rgba(0,0,0,0.1)';
+      vsCurExp=n;
+      document.getElementById('vs-exp-'+n).classList.add('vs-show');
+      const nb=document.getElementById('vs-eb-'+n);
+      nb.style.background='#2C3E2D';nb.style.color='white';nb.style.border='1px solid #2C3E2D';
+    }
+    vsSM('day');
+    </script>
+  </div>
+</section>
+
+<!-- CULTURE -->
+<section class="culture-section" id="culture">
+  <div class="culture-bg"></div>
+  <div style="position:relative;z-index:2;">
+    <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">Our Valley. Our Responsibility.</span></div>
+    <div class="culture-quote fade-up">
+      <h2 class="section-title" style="color:white;">The Same Sun That Grows<br>Our <em>Saffron,</em> Powers Our Homes.</h2>
+      <p class="culture-quote-text">"Kashmir has given the world its beauty. It is time the world's sunlight gives back to Kashmir."</p>
+      <div class="culture-quote-attr">— Valley Solars, MD Complex Karan Nagar, Srinagar</div>
+    </div>
+    <div class="culture-images">
+      <div class="culture-img-wrap fade-up">
+        <img src="https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?w=700&q=80" alt="Hazratbal Shrine Srinagar Kashmir" class="culture-img"/>
+        <div class="culture-img-overlay"><div class="culture-img-caption">Hazratbal Shrine, Dal Lake — Srinagar</div></div>
+      </div>
+      <div class="culture-img-wrap fade-up fd1">
+        <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=600&q=80" alt="Dal Lake Srinagar" class="culture-img"/>
+        <div class="culture-img-overlay"><div class="culture-img-caption">Dal Lake at dawn — the light that powers us</div></div>
+      </div>
+      <div class="culture-img-wrap fade-up fd2">
+        <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&q=80" alt="Kashmir Valley mountains" class="culture-img"/>
+        <div class="culture-img-overlay"><div class="culture-img-caption">The valley that inspires everything we do</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-section" id="process">
+  <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">How It Works</span></div>
+  <h2 class="section-title fade-up">From Your Roof to<br><em>Free Electricity</em> in 5 Steps.</h2>
+  <div class="process-steps">
+    <div class="process-step fade-up"><div class="process-step-num">1</div><div class="process-step-title">Free Site Visit</div><div class="process-step-desc">Our team visits your home anywhere in Kashmir Valley, assesses your roof, and calculates exactly how much you will save.</div></div>
+    <div class="process-step fade-up fd1"><div class="process-step-num">2</div><div class="process-step-title">Proposal & Agreement</div><div class="process-step-desc">We present a clear, detailed proposal — no hidden costs. You approve, we begin immediately.</div></div>
+    <div class="process-step fade-up fd2"><div class="process-step-num">3</div><div class="process-step-title">Professional Install</div><div class="process-step-desc">Our certified team completes installation in 1–2 days using MNRE-approved materials only.</div></div>
+    <div class="process-step fade-up fd3"><div class="process-step-num">4</div><div class="process-step-title">KPDCL Net Meter</div><div class="process-step-desc">We handle all paperwork with KPDCL for your net meter connection. Zero effort from you.</div></div>
+    <div class="process-step fade-up fd4"><div class="process-step-num">5</div><div class="process-step-title">₹94,800 in Your Account</div><div class="process-step-desc">Subsidy credited directly to your bank account within 30 days of commissioning. We handle everything.</div></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="testimonials">
+  <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">Customer Stories</span></div>
+  <h2 class="section-title fade-up">Real Families.<br><em>Real Savings.</em></h2>
+  <div class="testimonials-grid">
+    <div class="testimonial-card fade-up">
+      <div class="tq-mark">"</div>
+      <div class="t-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="t-text">Before Valley Solars, my bill was ₹2,600 every month. Last month it was ₹280. Same house, same appliances. They handled everything including the subsidy — I did not fill a single form.</p>
+      <div class="t-author"><div class="t-avatar">MR</div><div><div class="t-name">Mohammad Rashid</div><div class="t-loc">📍 Budgam</div><div class="t-tag">3 kW System</div></div></div>
+    </div>
+    <div class="testimonial-card fade-up fd1">
+      <div class="tq-mark">"</div>
+      <div class="t-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="t-text">I was skeptical — everyone said solar is a scam. But Valley Solars took me to see an actual installation in my neighbourhood. The customer spoke for themselves. Now my whole street wants one.</p>
+      <div class="t-author"><div class="t-avatar">FA</div><div><div class="t-name">Farida Akhtar</div><div class="t-loc">📍 Srinagar</div><div class="t-tag">5 kW System</div></div></div>
+    </div>
+    <div class="testimonial-card fade-up fd2">
+      <div class="tq-mark">"</div>
+      <div class="t-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="t-text">Even in December and January the system worked. My annual bill is down over 70%. The ₹94,800 subsidy came to my account in 3 weeks. Alhamdulillah — Valley Solars ne kaam kar diya.</p>
+      <div class="t-author"><div class="t-avatar">TA</div><div><div class="t-name">Tariq Ahmad</div><div class="t-loc">📍 Baramulla</div><div class="t-tag">3 kW System</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="contact-bg"></div>
+  <div class="contact-grid">
+    <div>
+      <div class="section-eyebrow fade-up"><div class="eyebrow-line"></div><span class="eyebrow-text">Get In Touch</span></div>
+      <h2 class="section-title fade-up">Start Saving.<br><em>Book Your Free Visit.</em></h2>
+      <p class="section-desc fade-up">Our team visits homes across every district of Kashmir Valley — completely free, no commitment required.</p>
+      <div class="contact-items">
+        <div class="contact-item fade-up"><div class="ci-icon">📍</div><div><div class="ci-label">Office Address</div><div class="ci-val">MD Complex, Karan Nagar<br>Srinagar, J&K — 190010</div></div></div>
+        <div class="contact-item fade-up fd1"><div class="ci-icon">📞</div><div><div class="ci-label">Call / WhatsApp</div><div class="ci-val"><a href="tel:+917006550513" style="color:inherit;text-decoration:none;">+91 7006550513</a> (WhatsApp)<br><a href="tel:+919858280609" style="color:inherit;text-decoration:none;">+91 9858280609</a><br><a href="tel:+917006274095" style="color:inherit;text-decoration:none;">+91 7006274095</a></div></div></div>
+        <div class="contact-item fade-up fd2"><div class="ci-icon">🗺️</div><div><div class="ci-label">Service Area</div><div class="ci-val">All Kashmir Valley Districts<br><span style="font-size:12px;opacity:0.8;">Srinagar · Budgam · Baramulla · Anantnag · Sopore · Kupwara · Ganderbal · Bandipora · Pulwama · Shopian · Kulgam</span></div></div></div>
+        <div class="contact-item fade-up fd3"><div class="ci-icon">🕐</div><div><div class="ci-label">Working Hours</div><div class="ci-val">Monday – Saturday, 9:00 AM – 7:00 PM</div></div></div>
+      </div>
+    </div>
+    <div class="contact-form-card fade-up">
+      <div class="form-title">Book Your Free Site Visit</div>
+      <div id="form-wrap">
+        <div class="form-group"><label class="form-label">Full Name</label><input type="text" class="form-input" id="f-name" placeholder="Your full name"></div>
+        <div class="form-group"><label class="form-label">Phone Number</label><input type="tel" class="form-input" id="f-phone" placeholder="+91 XXXXX XXXXX"></div>
+        <div class="form-group">
+          <label class="form-label">Your District / Area</label>
+          <select class="form-select" id="f-area">
+            <option value="">Select your area</option>
+            <option>Srinagar</option><option>Budgam</option><option>Baramulla</option>
+            <option>Anantnag</option><option>Sopore</option><option>Kupwara</option>
+            <option>Ganderbal</option><option>Bandipora</option><option>Pulwama</option>
+            <option>Shopian</option><option>Kulgam</option><option>Other Kashmir Valley</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">System Size You're Considering</label>
+          <select class="form-select" id="f-system">
+            <option value="">Not sure — need advice</option>
+            <option>3 kW (₹64,200 after subsidy)</option>
+            <option>5 kW (₹1,63,200 after subsidy)</option>
+            <option>6 kW (₹2,13,200 after subsidy)</option>
+            <option>7 kW (₹2,62,200 after subsidy)</option>
+            <option>10 kW (₹4,11,200 after subsidy)</option>
+          </select>
+        </div>
+        <div class="form-group"><label class="form-label">Message (Optional)</label><input type="text" class="form-input" id="f-msg" placeholder="Any specific questions or details"></div>
+        <div class="form-submit-row">
+          <button class="btn-primary" style="width:100%;" onclick="submitLead()">Book Free Visit — No Commitment</button>
+        </div>
+        <p style="font-size:11px;color:var(--text-light);text-align:center;margin-top:10px;">Our team will call within 2 hours to confirm your visit.</p>
+      </div>
+      <div class="form-success" id="form-success">
+        <div class="form-success-icon">✅</div>
+        <div class="form-success-title">Request Received — Jazakallah Khair!</div>
+        <div class="form-success-sub">Our team will call you within 2 hours to confirm your free site visit.<br>You can also WhatsApp us directly on +91 7006550513.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-wrap">
+        <div class="footer-brand-logo"><img src="logo.png" alt="Valley Solars"></div>
+        <div><div class="footer-brand-name">Valley Solars</div><div class="footer-brand-tag">Powering Kashmir's Future</div></div>
+      </div>
+      <p class="footer-brand-desc">Kashmir's fastest-growing solar company. Government-registered, KPDCL-certified, serving every district of the Kashmir Valley with quality that lasts 25 years.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/valleysolars?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="footer-social-btn" title="Instagram">📸</a>
+        <a href="https://wa.me/917006550513" target="_blank" class="footer-social-btn" title="WhatsApp">💬</a>
+        <a href="tel:+917006550513" class="footer-social-btn" title="Call">📞</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <ul class="footer-links">
+        <li><a href="#services">Rooftop Solar Installation</a></li>
+        <li><a href="#subsidy">Subsidy Application</a></li>
+        <li><a href="#contact">Free Site Survey</a></li>
+        <li><a href="#process">How It Works</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="#calculator">Savings Calculator</a></li>
+        <li><a href="#subsidy">PM Surya Ghar Scheme</a></li>
+        <li><a href="#why">Why Valley Solars</a></li>
+        <li><a href="#testimonials">Customer Reviews</a></li>
+        <li><a href="#work">Our Work</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links">
+        <li><a href="tel:+917006550513">+91 7006550513 (WhatsApp)</a></li>
+        <li><a href="tel:+919858280609">+91 9858280609</a></li>
+        <li><a href="tel:+917006274095">+91 7006274095</a></li>
+        <li><a href="https://wa.me/917006550513" target="_blank">WhatsApp Us</a></li>
+        <li><a href="https://www.instagram.com/valleysolars?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@valleysolars</a></li>
+        <li><a href="#">MD Complex, Karan Nagar, Srinagar</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-text">© 2025 Valley Solars. All rights reserved. KPDCL Registered · MD Complex, Karan Nagar, Srinagar J&K</div>
+    <div class="footer-bottom-badge">PM Surya Ghar Certified</div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 12V4M4 8l4-4 4 4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<div class="wa-float">
+  <div class="wa-label">💬 Free consultation</div>
+  <a href="https://wa.me/917006550513" class="wa-btn" target="_blank" aria-label="WhatsApp Valley Solars">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 2C7.373 2 2 7.373 2 14c0 2.13.562 4.13 1.543 5.863L2 26l6.293-1.527A11.947 11.947 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/><path d="M19.5 17c-.3.8-1.5 1.5-2.2 1.6-.7.1-1.3.3-4-1.3-3.1-1.8-5-5-5.2-5.3-.1-.2-.9-1.2-.9-2.3 0-1.1.6-1.6.8-1.8.2-.2.5-.3.7-.3h.5c.2 0 .4.1.6.5l.8 2c.1.2.1.4 0 .6l-.4.5-.5.5c-.1.1-.2.3-.1.5.3.5 1 1.5 1.9 2.4 1 .9 2 1.6 2.5 1.8.2.1.4 0 .5-.1l.5-.6c.2-.3.4-.3.6-.2l2 .9c.2.1.4.2.5.4.1.5-.1 1.4-.4 2.2z" fill="#25D366"/></svg>
+  </a>
+</div>
+
+<script>
+// PAGE LOADER
+window.addEventListener('load',()=>{setTimeout(()=>{const l=document.getElementById('page-loader');l.classList.add('hidden');setTimeout(()=>{if(l.parentNode)l.remove()},800)},1600)});
+
+// NAVBAR
+const nav=document.getElementById('navbar');
+nav.classList.add('scrolled');
+window.addEventListener('scroll',()=>{
+  nav.classList.toggle('scrolled',window.scrollY>60);
+  document.getElementById('scroll-top').classList.toggle('show',window.scrollY>400);
+});
+
+// MOBILE MENU
+function toggleMobile(){const m=document.getElementById('mobile-menu'),h=document.getElementById('hamburger'),o=m.classList.contains('open');m.classList.toggle('open',!o);h.classList.toggle('open',!o);}
+function closeMobile(){document.getElementById('mobile-menu').classList.remove('open');document.getElementById('hamburger').classList.remove('open');}
+
+// SCROLL ANIMATIONS
+const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.1,rootMargin:'0px 0px -30px 0px'});
+document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+
+// ACTIVE NAV
+const secs=document.querySelectorAll('section[id]');
+const nls=document.querySelectorAll('.nav-links a');
+window.addEventListener('scroll',()=>{let cur='';secs.forEach(s=>{if(window.scrollY>=s.offsetTop-130)cur=s.id;});nls.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+cur));});
+
+// CALCULATOR
+const sys={
+  3:{price:159000,central:85000,jk:9800,note:"Full ₹94,800 subsidy applies"},
+  5:{price:258000,central:85000,jk:9800,note:"Subsidy capped at ₹94,800 (3kW limit)"},
+  6:{price:308000,central:85000,jk:9800,note:"Subsidy capped at ₹94,800 (3kW limit)"},
+  7:{price:357000,central:85000,jk:9800,note:"Subsidy capped at ₹94,800 (3kW limit)"},
+  10:{price:506000,central:85000,jk:9800,note:"Subsidy capped at ₹94,800 (3kW limit)"}
+};
+let cKW=5,cBill=2500;
+const fmt=n=>'₹'+Math.round(n).toLocaleString('en-IN');
+const emi=(p,r,n)=>{const mr=r/12/100;return p*mr*Math.pow(1+mr,n)/(Math.pow(1+mr,n)-1);};
+function selKW(kw){cKW=kw;document.querySelectorAll('.sys-btn').forEach(b=>b.classList.remove('active'));document.getElementById('kbtn-'+kw).classList.add('active');calc();}
+function onSlider(v){cBill=parseInt(v);document.getElementById('bill-disp').textContent=fmt(v);calc();}
+function calc(){
+  const s=sys[cKW];
+  const sub=s.central+s.jk,net=s.price-sub;
+  const units=cKW*90,save=Math.min(units*5,cBill*0.85);
+  const annual=save*12,payback=annual>0?net/annual:99;
+  const lifetime=save*12*25,profit=lifetime-net;
+  const e=emi(net,9,84);
+  document.getElementById('r-pay').textContent=fmt(net);
+  document.getElementById('r-save').textContent=fmt(save);
+  document.getElementById('r-save-sub').textContent='~'+units+' units/month est.';
+  document.getElementById('r-payback').textContent=(Math.round(payback*10)/10)+' yrs';
+  document.getElementById('r-emi').textContent=net>200000?fmt(e)+'/mo':'Full pay';
+  document.getElementById('r-emi-sub').textContent=net>200000?'9% · 7 yrs · JK Bank':'Net cost below ₹2L threshold';
+  document.getElementById('bk-cost').textContent=fmt(s.price);
+  document.getElementById('bk-central').textContent='− '+fmt(s.central);
+  document.getElementById('bk-jk').textContent='− '+fmt(s.jk);
+  document.getElementById('bk-net').textContent=fmt(net);
+  document.getElementById('bk-note').textContent=s.note;
+  document.getElementById('lt-val').textContent=fmt(lifetime);
+  document.getElementById('lt-profit').textContent=profit>0?fmt(profit):'—';
+}
+calc();
+
+// LEAD FORM — saves to localStorage, no WhatsApp redirect
+let leads=JSON.parse(localStorage.getItem('vs_leads')||'[]');
+function submitLead(){
+  const name=document.getElementById('f-name').value.trim();
+  const phone=document.getElementById('f-phone').value.trim();
+  if(!name){alert('Please enter your name.');document.getElementById('f-name').focus();return;}
+  if(!phone){alert('Please enter your phone number.');document.getElementById('f-phone').focus();return;}
+  const lead={
+    id:Date.now(),
+    date:new Date().toLocaleString('en-IN',{timeZone:'Asia/Kolkata'}),
+    name,phone,
+    area:document.getElementById('f-area').value||'Not specified',
+    system:document.getElementById('f-system').value||'Not sure',
+    message:document.getElementById('f-msg').value.trim()||'—',
+    status:'New'
+  };
+  leads.push(lead);
+  localStorage.setItem('vs_leads',JSON.stringify(leads));
+  document.getElementById('form-wrap').style.display='none';
+  document.getElementById('form-success').style.display='block';
+}
+// Admin tools — type in browser console to see/export leads
+window.viewLeads=()=>{const d=JSON.parse(localStorage.getItem('vs_leads')||'[]');if(!d.length){console.log('No leads yet.');return;}console.table(d);};
+window.exportLeads=()=>{
+  const d=JSON.parse(localStorage.getItem('vs_leads')||'[]');
+  if(!d.length){alert('No leads yet.');return;}
+  const csv=['ID,Date,Name,Phone,Area,System,Message,Status',...d.map(l=>`${l.id},"${l.date}","${l.name}","${l.phone}","${l.area}","${l.system}","${l.message}","${l.status}"`)].join('\n');
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
+  a.download='valley-solars-leads.csv';a.click();
+};
+</script>
+</body>
+</html>
